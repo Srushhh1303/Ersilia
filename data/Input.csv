@@ -1,0 +1,48 @@
+Table S7. Prediction results of 44 compounds in the external test dataset.,,,,,
+,,,,,
+,,,,,
+Smiles,IC50,In vitro result,DeepHIT,CardPred,Pred-hERG 4.2
+CCOC(=O)C1(CCN(C)CC1)c1ccccc1,75,hERG non-blocker,hERG non-blocker,hERG non-blocker,hERG non-blocker
+CCN(CC)CC(=O)NC1=C(C)C=CC=C1C,262.2,hERG non-blocker,hERG non-blocker,hERG non-blocker,hERG blocker
+CCCC(CCC)C(=O)O,20,hERG non-blocker,hERG non-blocker,hERG non-blocker,hERG non-blocker
+CCC(COC(=O)c1cc(OC)c(OC)c(OC)c1)(c1ccccc1)N(C)C,90,hERG non-blocker,hERG non-blocker,hERG non-blocker,hERG blocker
+COc1ccc(N(C(C)=O)c2cc3c(cc2[N+](=O)[O-])OC(C)(C)C(O)C3NC2CC2)cc1,44,hERG non-blocker,hERG non-blocker,hERG non-blocker,hERG non-blocker
+COc1cc2nc(nc(N)c2cc1OC)N1CCN(CC1)C(=O)c1ccco1,1.57,hERG blocker,hERG non-blocker,hERG non-blocker,hERG non-blocker
+COc1ccc2cc3-c4cc5OCOc5cc4CC[n+]3cc2c1OC,3.1,hERG blocker,hERG non-blocker,hERG non-blocker,hERG blocker
+CCCc1nn(C)c2c(=O)[nH]c(nc12)c3cc(ccc3OCC)S(=O)(=O)N4CCN(C)CC4,33.3,hERG non-blocker,hERG non-blocker,hERG non-blocker,hERG non-blocker
+CCCc1nn(C)c2c(=O)nc(-c3cc(S(=O)(=O)N4CCN(C)CC4)ccc3OCC)[nH]c12,100,hERG non-blocker,hERG non-blocker,hERG non-blocker,hERG non-blocker
+CC(=O)SC1CC2=CC(=O)CCC2(C)C2CCC3C(CCC34CCC(=O)O4)C12,23,hERG non-blocker,hERG non-blocker,hERG non-blocker,hERG non-blocker
+COc1ccc(cc1OC)C(=O)N1CCN(CC1)c1ccc2NC(=O)CCc2c1,1.1,hERG blocker,hERG non-blocker,hERG non-blocker,hERG non-blocker
+CCS(=O)(=O)NC1c2cc(C#N)ccc2C(=O)C(C)(C)C1O,6.6,hERG blocker,hERG non-blocker,hERG non-blocker,hERG non-blocker
+CCOC(=O)C1=C(COCCN)NC(C)=C(C(=O)OC)C1c1ccccc1Cl,3,hERG blocker,hERG non-blocker,hERG non-blocker,hERG non-blocker
+CN1CC(=O)C2C(Cc3c([nH]c4ccccc34)C2c2cccc3c2OCO3)C1=O,100,hERG non-blocker,hERG non-blocker,hERG non-blocker,hERG blocker
+CC(C)N(CCC(C(N)=O)(c1ccccc1)c1ccccn1)C(C)C,92,hERG non-blocker,hERG blocker,hERG non-blocker,hERG blocker
+CN1CCN(CC1)[C@H]1N(O)c2cc(Cl)ccc2Nc2ccccc12,133.3,hERG non-blocker,hERG blocker,hERG non-blocker,hERG blocker
+CCCCCCCCCC[N+](CC)(CC)CC,3.6,hERG blocker,hERG blocker,hERG non-blocker,hERG non-blocker
+CCCCCCCC[N+](CC)(CC)CC,8.4,hERG blocker,hERG blocker,hERG non-blocker,hERG non-blocker
+C/C(=C(/F)C(=O)Nc1ccc(-c2ccc(S(N)(=O)=O)cc2)cc1)c1cccc(C(=N)N)c1,<<1.0,hERG blocker,hERG blocker,hERG blocker,hERG blocker
+COc1ccccc1OCCNCC(O)COc1cccc2c1C1C=CC=CC1=N2,10.42,hERG non-blocker,hERG blocker,hERG non-blocker,hERG blocker
+O=C1N(Cc2ccccc2)C2C[S+]3CCCC3C2N1Cc1ccccc1,10,hERG non-blocker,hERG blocker,hERG non-blocker,hERG non-blocker
+CC(C)(C)c1cn(-c2ccc(F)cc2)c2ccccc12,>10,hERG non-blocker,hERG blocker,hERG non-blocker,hERG non-blocker
+COc1ccccc1OCCNC[C@@H](O)COc1cccc2[nH]c3ccccc3c12,0.51,hERG blocker,hERG blocker,hERG non-blocker,hERG blocker
+CNCCCC1c2ccccc2CCc2ccccc12,1.18,hERG blocker,hERG blocker,hERG non-blocker,hERG blocker
+C1CN=C(N1)[C@@H]1CC1(c1ccccc1)c1ccccc1,3.7,hERG blocker,hERG blocker,hERG non-blocker,hERG non-blocker
+CC(C)CC(N(C)C)C1(CCC1)C1=CC=C(Cl)C=C1,3.755,hERG blocker,hERG blocker,hERG non-blocker,hERG blocker
+COCCCC\C(c1ccc(cc1)C(F)(F)F)=N/OCCN,3.8,hERG blocker,hERG blocker,hERG non-blocker,hERG non-blocker
+OCCOCCN1CCN(CC1)C1=Nc2ccccc2Sc2ccccc12,5.765,hERG blocker,hERG blocker,hERG non-blocker,hERG blocker
+COc1ccc(CN(CCN(C)C)c2ccccn2)cc1,6,hERG blocker,hERG blocker,hERG non-blocker,hERG blocker
+CC(C)(C)N(CC(O)c1cc(Cl)cc2c1-c1ccc(Cl)cc1/C2=C\c1ccc(Cl)cc1)C(C)(C)C,8.1,hERG blocker,hERG blocker,hERG non-blocker,hERG blocker
+CN(C)CCCn1cc(C2C(=O)NC(=O)C2c2c[nH]c3ccccc23)c2ccccc21,1,hERG blocker,hERG blocker,hERG non-blocker,hERG blocker
+Cc1ccc(CCN(C)CCCN(C(=O)c2ccc([N+](=O)[O-])cc2)c2ccc(C)c(C)c2)cc1C,0.0198,hERG blocker,hERG blocker,hERG blocker,hERG blocker
+CC(C)(C)c1ccc(C(=O)CCCN2CCC(OCc3ccccc3)CC2)cc1,0.331,hERG blocker,hERG blocker,hERG non-blocker,hERG blocker
+COCC(=O)OC1(CCN(C)CCCC2=NC3C=CC=CC3=N2)CCc2cc(F)ccc2C1C(C)C,1.43,hERG blocker,hERG blocker,hERG non-blocker,hERG non-blocker
+CCN(CC)c1ccc(NC(=O)C2CCc3cccc(OC)c3C2N(C)C(=O)OCC(C)C)cc1,6.1,hERG blocker,hERG blocker,hERG non-blocker,hERG non-blocker
+O=C(Cc1ccc(F)cc1)NC1CCN(CCC(NC(=O)C2CCC2)c2ccccc2)CC1,<<1.0,hERG blocker,hERG blocker,hERG non-blocker,hERG blocker
+O=C1Nc2ccccc2C1CCCN1CCC(n2c(=O)[nH]c3cc(Cl)ccc32)CC1,0.162,hERG blocker,hERG blocker,hERG non-blocker,hERG blocker
+CCCCCCC[N+](CC)(CC)CCCCc1ccc(Cl)cc1,0.0126,hERG blocker,hERG blocker,hERG non-blocker,hERG non-blocker
+COc1ccc(CCN(C)CCCNc2c(Cl)cn[nH]c2=O)cc1OC,6.6,hERG blocker,hERG blocker,hERG non-blocker,hERG blocker
+COc1ccc(C(=O)Nc2ccccc2CCC2CCCCN2C)cc1,6,hERG blocker,hERG blocker,hERG non-blocker,hERG blocker
+CCOc1cc(N)c(Cl)cc1C(=O)NCC1CN(Cc2ccc(F)cc2)CCO1,7.75,hERG blocker,hERG blocker,hERG non-blocker,hERG blocker
+O=C(NC(CCN1CCC(c2noc(Cc3ccccc3)n2)CC1)c1ccccc1)C1CCC1,<<1.0,hERG blocker,hERG blocker,hERG non-blocker,hERG blocker
+O=C(NC(CCN1CCC(n2cnc(Cc3ccccc3)n2)CC1)c1ccccc1)C1CCC1,<<1.0,hERG blocker,hERG blocker,hERG non-blocker,hERG blocker
+CCN(CC)CCCN(c1ccccc1)C1CCc2ccccc21,0.23,hERG blocker,hERG blocker,hERG non-blocker,hERG blocker
